@@ -1,0 +1,29 @@
+PLINK v1.90b4.6 64-bit (15 Aug 2017)
+Options in effect:
+  --bfile /home/kulmsc/athena/refs/1000genomes/maggie.22
+  --chr 22
+  --extract keep_snps
+  --keep-fam keep_people
+  --make-bed
+  --out training_people.0.5.250
+
+Hostname: nice.pbtech
+Working directory: /athena/elementolab/scratch/kulmsc/impute_ml
+Start time: Sat Nov 14 10:23:05 2020
+
+Random number seed: 1605367385
+515706 MB RAM detected; reserving 257853 MB for main workspace.
+Allocated 193389 MB successfully, after larger attempt(s) failed.
+188457 variants loaded from .bim file.
+503 people (240 males, 263 females) loaded from .fam.
+--extract: 10000 variants remaining.
+--keep-fam: 250 people remaining.
+Using 1 thread (no multithreaded calculations invoked).
+Before main variant filters, 250 founders and 0 nonfounders present.
+Calculating allele frequencies... done.
+10000 variants and 250 people pass filters and QC.
+Note: No phenotypes present.
+--make-bed to training_people.0.5.250.bed + training_people.0.5.250.bim +
+training_people.0.5.250.fam ... done.
+
+End time: Sat Nov 14 10:23:06 2020
